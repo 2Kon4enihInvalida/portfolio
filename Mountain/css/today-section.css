@@ -1,0 +1,160 @@
+.today-section {
+  width: 100%;
+  height: 1273px;
+  margin-top: -700px;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(#020E20, #020E20);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.short-status-cont {
+  width: 32.983%;
+  height: 20.11%;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 2.63%;
+  margin-left: 8.823%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.s-s-text {
+  font-size: 60px;
+  width: 100%;
+}
+
+.s-s-text:nth-of-type(2) {
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.6);
+  width: 30%;
+}
+
+.s-s-text:nth-of-type(3) {
+  display: flex;
+  font-size: 36px;
+  width: 50%;
+}
+
+.opening-hours-cont {
+  width: 26.891%;
+  height: 27.651%;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin-left: 23.554%;
+  font-family: "Poppins", sans-serif;
+}
+
+.op-hours {
+  width: 100%;
+  height: 31.82%;
+  background-color: #11327B;
+  font-size: 40px;
+  color: white;
+  padding-top: 5%;
+  padding-left: 9.375%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.op-status {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 5% !important;
+  margin-left: 9.375%;
+}
+
+.op-time {
+  color: white;
+  font-size: 40px;
+  margin-left: 9.375%;
+}
+
+.op-line {
+  width: 75.4%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 12.304%;
+  margin-top: 5% !important;
+}
+
+.op-link {
+  color: cyan;
+  font-size: 24px;
+  margin-left: 9.375%;
+  margin-top: 7% !important;
+  display: flex;
+  align-items: center;
+}
+
+.op-arrow {
+  width: 10.5%;
+  height: 18px;
+  margin-left: 2.375%;
+}
+
+.long-status-cont {
+  font-family: "Poppins", sans-serif;
+  width: 35.2%;
+  height: 42.026%;
+  margin-left: 8.613%;
+  margin-top: 15.71%;
+}
+
+.route-map {
+  width: 40.9%;
+  height: 56.323%;
+  margin-left: 7.6%;
+  margin-top: 200px;
+}
+
+.l-s-header {
+  width: 52.39%;
+  height: 16.45%;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 36px;
+}
+
+.l-s-header-text {
+  margin-top: 3.8% !important;
+  margin-left: 7.33% !important;
+}
+
+.l-s-weather {
+  width: 92.835%;
+  height: 23.782%;
+  display: flex;
+  margin-top: 9.7%;
+  font-family: "Poppins", sans-serif;
+}
+
+.degree-and-icon-cont {
+  font-size: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: normal;
+  color: white;
+}
+
+.weather-info-cont {
+  margin-right: 11.942%;
+  font-size: 32px;
+  letter-spacing: -1px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.l-s-text {
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins-light", sans-serif;
+  margin-top: 15.71%;
+}/*# sourceMappingURL=today-section.css.map */

@@ -1,0 +1,94 @@
+.nav-bar{
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 8.71%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.406);
+}
+
+.nav-logo{
+  display: flex;
+  flex-wrap: wrap;
+  width: 9.271%;
+  height: 100%;
+  margin-right: 1.25%;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Poppins-bold', sans-serif;
+  font-size: 18px;
+}
+
+.nav-logo:hover{
+  border-bottom: 3px solid white;
+}
+
+.nav-icon{
+  width: 13.636%;
+  height: 21.621%;
+  margin-right: 5.618%;
+}
+
+.nav-menu{
+  width: 62.969%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  font-family: 'Poppins-light', sans-serif;
+  font-weight: 100;
+}
+
+.nav-menu-element{
+  margin-right: 3.97%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu-element:hover{
+  border-bottom: 3px solid white;
+}
+
+.nav-menu-element:nth-last-child(1){
+  margin-right: 0;
+}
+
+.nav-youtube{
+  width: 8.177%;
+  height: 42.857%; 
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  padding-left: 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.yt-icon{
+  width: 20.382%;
+  height: 66.666%;
+  margin-right: 10.191%;
+  margin-left: 5.095%;
+}
+
+.nav-youtube:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-youtube:active{
+  background-color: rgba(0, 0, 0, 0.6);
+
+}

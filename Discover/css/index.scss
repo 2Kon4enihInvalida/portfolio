@@ -1,0 +1,531 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif !important;
+  line-height: normal !important;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #181818 !important;
+}
+
+img, svg {
+  vertical-align: baseline !important;
+}
+
+p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.main-cont {
+  /* 
+  width: 1920px; 
+  height: 1293px;
+  */
+  width: 100%; 
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  z-index: 1;
+}
+
+.nav-bar {
+  width: 91.1%;
+  height: 1.5%;
+  margin-top: 3.4%;
+  margin-left: 4.4%;
+  margin-right: 4.4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  animation-duration: 3s;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-group {
+  width: 19.8%;
+  font-size: 18px;
+}
+
+.nav-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-search {
+  width: 5%;
+  font-size: 17px;
+  opacity: 60%;
+}
+
+.cont-explore {
+  width: 49.4%;
+  height: 20.2%;
+  margin-top: 10.5%;
+  margin-left: 19.32%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-right: 21.6%;
+}
+
+.loop-icon {
+  width: 22.8%;
+  height: 90.9%;
+}
+
+.explore {
+  width: 54.8%;
+  height: 9.6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  animation-duration: 4s;
+}
+
+.explore-fig {
+  width: 13.8%;
+  height: 8.8%;
+  background-color: #EACBC6;
+  animation-duration: 1s;
+}
+
+.explore-el-text {
+  color: #EACBC6;
+  width: 80%;
+  height: 100%;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  animation-duration: 1s;
+}
+
+.explore-text {
+  width: 100%;
+  height: 78.4%;
+  font-size: 88px;
+  color: #EACBC6;
+  animation-duration: 6s;
+}
+
+.social-links {
+  color: white;
+  width: 1.3%;
+  height: 16.6%;
+  margin-left: 4.1%;
+  margin-top: 14.1%;
+}
+
+.f-u {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  animation-duration: 4s;
+}
+
+.social-i {
+  width: 80%;
+  height: 9.3%;
+  margin-top: 80%;
+  animation-duration: 5s;
+}
+
+.twitter {
+  width: 83.6%;
+  height: 7.9%;
+  animation-duration: 6s;
+}
+
+.facebook {
+  width: 44%;
+  height: 10.7%;
+  animation-duration: 7s;
+}
+
+.arrow-scroll {
+  margin-top: 5.2%;
+  margin-left: 46.7%;
+  color: white;
+  width: 6.5%;
+  height: 2%;
+  display: flex;
+  animation-duration: 8s;
+}
+
+.arrow-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-right: 7.14%;
+}
+
+.arrow-icon {
+  width: 12.69%;
+  height: 96%;
+  margin-bottom: 80%;
+}
+
+.exp-2{
+  width: 54.7%;
+}
+
+.fig-2{
+  width: 20.8%;
+  height: 3.8%;
+}
+
+.exp-el-2{
+  text-align: right;
+  display: flex;
+  width: 68.5%;
+}
+
+.main-info-grid {
+  width: 76%;
+  height: 3901px;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 18.4% 24.6% 18.4% 19.1%;
+  row-gap: 6.4%;
+  overflow: hidden;
+}
+
+
+.main-cont-image {
+  position: absolute;
+  background-image: url("/images/back3.jpg");
+  background-size: 135.5% 135.5%;
+  background-repeat: no-repeat;
+  background-position: -620px 0px;
+  width: 100%;
+  height: 123%;
+  z-index: 0;
+}
+
+.t {
+  background-color: teal;
+}
+
+.img-info {
+  width: 598px;
+  height: 100%;
+  background-image: url("/images/fujiyoshida.jpg");
+  background-size: 150% 100%;
+  background-position: -80px 0px;
+  animation-duration: 2s;
+}
+
+.info-container {
+  width: 43.2%;
+  height: 76%;
+}
+
+.container-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.cont-title {
+  font-size: 55px;
+  width: 63.2%;
+  margin-top: 27px !important;
+  animation-duration: 1s;
+}
+
+.cont-text {
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 4.4% !important;
+  margin-bottom: 4.4% !important;
+  animation-duration: 1s;
+
+}
+
+.read-more {
+  display: flex;
+  color: #EACBC6;
+  animation-duration: 2s;
+}
+
+.read-more-icon {
+  width: 3.7%;
+  height: 2.9%;
+  margin-left: 1.5%;
+  font-size: 18px;
+}
+
+.mg {
+  margin-left: 2.9%;
+}
+
+.cult-info {
+  background-image: url("/images/geishas.jpg");
+  width: 40.9%;
+  height: 100%;
+  background-size: 100% 130%;
+  background-position: 0px -180px;
+  animation-duration: 2s;
+}
+
+.carousel-grid {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel {
+  height: 100% !important;
+}
+
+.carousel-item {
+  height: 100% !important;
+}
+
+.carousel-inner {
+  height: 100% !important;
+}
+
+.all-center {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.caption-modif {
+  width: 39%;
+}
+
+.text-modif {
+  text-align: center;
+  width: 38.6%;
+  color: white;
+  justify-content: center;
+}
+
+.title-carousel {
+  width: 68.9%;
+  margin-bottom: 2.3%;
+}
+
+.text-carousel {
+  width: 91.3%;
+  font-size: 18px;
+}
+
+.carousel-caption {
+  bottom: 8.8% !important;
+}
+
+.carousel-indicators {
+  margin-bottom: 2.8% !important;
+}
+
+.fig-3{
+  width: 18.2%;
+  height: 2px;
+}
+
+.fig-4{
+  width: 18.2%;
+  height: 3.8%;
+}
+
+.exp-4{
+  width: 63%;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.rm-text{
+  color: #EACBC6;
+}
+
+.white-fig {
+  background-color: white;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 44.5% 8% 8% 8%;
+  grid-template-rows: 16.7% 0.3% 54% 4%;
+  -moz-column-gap: 10.51%;
+       column-gap: 10.51%;
+}
+
+.title-contact {
+  margin-top: 3.8%;
+  margin-left: 0.6%;
+  font-size: 48px;
+  color: white;
+}
+
+.ready-cont {
+  grid-column: span 3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divider {
+  grid-column: span 4;
+  background:white;
+}
+
+.ready-button {
+  width: 36.4%;
+  height: 55.5%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 163, 67);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.ready-button:active {
+  background-color: rgb(224, 144, 58);
+}
+
+.ready-text {
+  margin-top: 4.1%;
+  margin-right: 55px;
+  color: white;
+}
+
+.communication-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.com-text {
+  font-size: 36px;
+  width: 55%;
+  margin-bottom: 55px !important;
+  color: white;
+}
+
+.email-holder {
+  display: flex;
+  width: 55%;
+  height: 17.4%;
+}
+
+.link {
+  width: 69.14px;
+  height: 69.14px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: none;
+  background-color: rgb(255, 163, 67);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inp_line {
+  width: 330.46px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+}
+
+#placeholder-text::-moz-placeholder {
+  color: white !important;
+  padding-left: 20px;
+}
+
+#placeholder-text::placeholder {
+  color: white !important;
+  padding-left: 20px;
+}
+
+.c-title {
+  color: #EACBC6;
+  font-size: 19px;
+}
+
+.c-words {
+  font-size: 18px;
+  color: white;
+}
+
+.contact-column {
+  line-height: 45px;
+  align-content: center;
+  margin-left: -30px;
+}
+
+.down-bar {
+  display: flex;
+  grid-column: span 4;
+  justify-content: space-between;
+}
+
+.t-c-container {
+  display: flex;
+  width: 384.29px;
+  margin-top: 6px;
+  color: white;
+}
+
+.t-text {
+  margin-left: 40.86px;
+  font-size: 15px;
+  color: white;
+}
+
+.social-icons {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.social-i-d {
+  margin-left: 51.65px;
+}
+
+.t
+
+.social-i-d:nth-child(3) {
+  margin-right: 55px;
+}
+
+.nav-element{
+  transition-duration: 2s;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-element:hover{
+  font-size: 20px;
+}

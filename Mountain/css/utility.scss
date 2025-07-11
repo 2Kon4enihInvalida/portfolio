@@ -1,0 +1,42 @@
+img, svg {
+  vertical-align: baseline !important;
+}
+
+p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.all-center {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-light';
+  src: url('/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url('/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
